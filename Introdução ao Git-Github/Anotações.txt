@@ -1,0 +1,94 @@
+Alguns comandos para o Git
+
+----- Comandos para configurar o Git
+git config --global user.name "Meu nome"
+git config --global user.email "Meu email"
+
+----- Comandos para clonar 
+git clone "link do repositorio"
+
+----- Comandos para commit
+git status 
+git add . 
+git add -a
+git commit -m " Colocar sempre uma mensagem coerente com o commit "
+git push origin main 
+
+----- Comandos importantes 
+git mergetool =  verifica se tem algum conflito de branch no git.
+git diff = comando mais completo que o git status
+git reset = pra reset de algum atualização. 
+git rm = remover arquivos.
+git mv = mover arquivos
+git branch
+git checkout -b {nome_da_branch}
+git merge
+git log
+git stash
+git stash list
+git tag
+git pull
+git remote
+git fetch
+git submodule
+
+----- Comandos Inspeção e Comparação
+git show
+git log
+git diff
+git shortlog
+git describe
+
+----- Comandos de Pacotes
+git apply
+git cherry-pick
+git diff
+git rebase
+git revert
+
+----- Comandos Debugando
+git bisect
+git blame
+git grep
+
+----- Comandos de Email
+git am
+git apply
+git format-patch
+git send-email
+git request-pull
+
+----- Comandos de Sistemas Externos
+git svn
+git fast-import
+
+----- Comandos de Administração
+git clean
+git gc
+git fsck
+git reflog
+git filter-branch
+git instaweb
+git archive
+
+----- Comandos de Servidor
+git daemon
+git update-server-info
+
+Canalização de Código
+git cat-file
+git commit-tree
+git count-objects
+git diff-index
+git for-each-ref
+git hash-object
+git merge-base
+git read-tree
+git rev-list
+git rev-parse
+git show-ref
+git symbolic-ref
+git update-index
+git update-ref
+git verify-pack
+git write-tree
