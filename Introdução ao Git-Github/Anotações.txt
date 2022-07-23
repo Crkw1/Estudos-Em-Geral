@@ -1,4 +1,4 @@
-Alguns comandos para o Git
+git Alguns comandos para o Git
 
 ----- Comandos para configurar o Git
 git config --global user.name "Meu nome"
@@ -13,6 +13,7 @@ git add .
 git add -a
 git commit -m " Colocar sempre uma mensagem coerente com o commit "
 git push origin main 
+git reset HEAD~ " Serve para desfazer o ultimo commit" 
 
 ----- Comandos importantes 
 git mergetool =  verifica se tem algum conflito de branch no git.
